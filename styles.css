@@ -1,0 +1,94 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* universal */
+
+body {
+    width: 80%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: hsl(247, 22%, 12%);
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 50px 0;
+}
+
+h1, h2, th {
+    color:hsl(230, 28%, 27%);
+}
+
+/* tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px 15px;
+    border-bottom: 1px solid hsl(230, 28%, 27%);
+    border-left: 1px solid hsl(230, 28%, 27%);
+}
+
+th {
+    font-size: 18px;
+    border-top: 1px solid hsl(230, 28%, 27%);
+    background-color: hsl(230, 28%, 96%);
+}
+
+th:last-child, td:last-child {
+    border-right: 1px solid hsl(230, 28%, 27%);
+}
+
+
+
+
+/* classes */
+
+.code {
+    font-family: 'IBM Plex Mono', monospace;
+    color: hsl(28, 84%, 67%);
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+/* Fonts
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'IBM Plex Sans', sans-serif;
+*/
+
+
